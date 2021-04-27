@@ -7,7 +7,7 @@
   >
     <a
       :class="headerIconClass"
-      href="/settings/copyright"
+      href="#"
     />
 
     <!-- 用户菜单 -->
