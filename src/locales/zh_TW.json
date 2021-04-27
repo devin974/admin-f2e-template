@@ -1,0 +1,9 @@
+{
+  "page": "主頁",
+  "header": {
+    "name": "用戶名",
+    "userCenter": "用戶中心",
+    "modifyPassword": "修改密碼",
+    "logout": "退出"
+  }
+}

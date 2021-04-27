@@ -1,0 +1,110 @@
+html {
+  text-rendering: optimizelegibility;
+}
+
+article, aside, blockquote, body, button, code, dd, details, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hr, input, legend, li, menu, nav, ol, p, pre, section, td, textarea, th, ul {
+  margin: 0;
+  padding: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, iframe, menu, nav, section {
+  display: block;
+}
+
+audio, canvas, video {
+  display: inline-block;
+}
+
+textarea {
+  resize: none;
+}
+
+input {
+  &::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+// fix underspace bug with html5 doctype
+img {
+  vertical-align: middle;
+}
+
+a, input, textarea, button {
+  &:focus {
+    outline: none;
+  }
+}
+
+del {
+  text-decoration: line-through;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+caption, th {
+  text-align: left;
+}
+
+strong {
+  font-weight: 600;
+}
+
+[draggable] {
+  cursor: move;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'product-sans-bold';
+  src: url('~@/assets/font/product-sans-bold.ttf') format('woff'),
+  url('~@/assets/font/product-sans-bold.ttf') format('truetype');
+}
+
+body {
+  font-family: "PingFang HK", "PingFang SC", "Microsoft YaHei", "Heiti SC", "Heiti TC", "Helvetica Neue", "Helvetica"," Arial", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+  background: #FAFAFA;
+  -webkit-font-smoothing: antialiased;
+}
+
+a:link,
+a:hover {
+  text-decoration: none;
+}
+
+
+.sd-icon {
+  font-size: 24px;
+  line-height: 1;
+}
+
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+  font-family: "PingFang HK", "PingFang SC", "Microsoft YaHei", "Heiti SC", "Heiti TC", "Helvetica Neue", "Helvetica"," Arial", sans-serif;
+}

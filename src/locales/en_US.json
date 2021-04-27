@@ -1,0 +1,9 @@
+{
+  "page": "Home",
+  "header": {
+    "name": "username",
+    "userCenter": "User Center",
+    "modifyPassword": "Password",
+    "logout": "drop out"
+  }
+}
