@@ -1,7 +1,7 @@
 # admin-f2e-template
 > 后台项目模版
 
-初始化配置了 Vuex + i18n + ElementUi
+初始化配置了 Vuex + VueRouter + i18n + ElementUi
 
 ## install node_modules
 ```
